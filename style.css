@@ -2,6 +2,11 @@ body {
   background: rgb(0, 195, 255);
 }
 
+header {
+  width: 67%;
+  margin: auto;
+}
+
 h1 {
   font-family: 'Roboto', sans-serif;
 }
@@ -12,4 +17,9 @@ p, li {
 
 img {
   max-width: 300px;
+  margin: auto;
+}
+
+@media screen and (max-width: 700) {
+
 }
